@@ -7,29 +7,34 @@ import CardGradient from "./pages/CardGradient.tsx";
 import PasswordGenerator from "./pages/PasswordGenerator.tsx";
 import OfflineModal from "./components/OfflineModal.tsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <LandingPage />,
+      errorElement: <PageNotFound />,
+    },
+    {
+      path: "/infinite-scroll",
+      element: <InfiniteScroll />,
+    },
+    {
+      path: "/debounce-search",
+      element: <DebounceSearch />,
+    },
+    {
+      path: "/card-gradient",
+      element: <CardGradient />,
+    },
+    {
+      path: "/password-generator",
+      element: <PasswordGenerator />,
+    },
+  ],
   {
-    path: "/",
-    element: <LandingPage />,
-    errorElement: <PageNotFound />,
-  },
-  {
-    path: "/infinite-scroll",
-    element: <InfiniteScroll />,
-  },
-  {
-    path: "/debounce-search",
-    element: <DebounceSearch />,
-  },
-  {
-    path: "/card-gradient",
-    element: <CardGradient />,
-  },
-  {
-    path: "/password-generator",
-    element: <PasswordGenerator />,
-  },
-]);
+    basename: "/react-practice",
+  }
+);
 
 const App = () => {
   return (
