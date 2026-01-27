@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Space Grotesk";
+}
+
+.gradient-blur {
+  position: relative;
+}
+
+.gradient-blur::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  mask: linear-gradient(to bottom, transparent 0%, black 25%);
+  -webkit-mask: linear-gradient(to bottom, transparent 0%, black 25%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 100%);
+  pointer-events: none;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
