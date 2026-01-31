@@ -18,6 +18,11 @@ Try it out here 👉 [React Projects by Faraaz Ansari](https://thefaraazansari.g
 
 ![Infinite Scroll Screenshot](./src/assets/screenshot1.png)
 
+
+2. Debounce Search vs Traditional Search
+
+![Debounce Search Screenshot](./src/assets/screenshot2.png)
+
 ## ⚙️ Installation
 
 Follow these steps to run the project locally:
