@@ -23,6 +23,14 @@ Try it out here 👉 [React Projects by Faraaz Ansari](https://thefaraazansari.g
 
 ![Debounce Search Screenshot](./src/assets/screenshot2.png)
 
+3. Password Generator
+
+![Password Generator Screenshot](./src/assets/screenshot3.png)
+
+4. Offline Modal
+
+![Offline Modal Screenshot](./src/assets/screenshot4.png)
+
 ## ⚙️ Installation
 
 Follow these steps to run the project locally:
