@@ -10,7 +10,7 @@ const PageNotFound = () => {
           The page you are looking for does not exist!
         </p>
         <a
-          href="/"
+          href="/react-practice"
           rel="noopener noreferrer"
           className="mt-2 px-4 py-2 rounded-lg border border-indigo-700 font-medium text-indigo-700 hover:bg-indigo-700 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700 focus-visible:bg-indigo-700 focus-visible:text-white"
         >
