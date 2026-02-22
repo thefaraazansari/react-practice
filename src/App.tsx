@@ -12,7 +12,6 @@ const router = createBrowserRouter(
     {
       path: "/",
       element: <LandingPage />,
-      errorElement: <PageNotFound />,
     },
     {
       path: "/infinite-scroll",
@@ -29,6 +28,10 @@ const router = createBrowserRouter(
     {
       path: "/password-generator",
       element: <PasswordGenerator />,
+    },
+    {
+      path: "*",
+      element: <PageNotFound />,
     },
   ],
   {
