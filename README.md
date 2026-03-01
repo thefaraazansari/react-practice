@@ -4,9 +4,13 @@
 <img width="8" />
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
 <img width="8" />
+[![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+<img width="8" />
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 <img width="8" />
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8)](https://tailwindcss.com/)
+<img width="8" />
+[![Coin Gecko API](https://img.shields.io/badge/Coin_Gecko_API-8DC647?style=for-the-badge&logo=coingecko&logoColor=white)](https://www.coingecko.com/en/api)
 
 ## 🚀 Live Demo
 
