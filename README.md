@@ -1,10 +1,12 @@
 # 💪 React Projects
 
-![React](https://img.shields.io/badge/React-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-yellow)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-orange)
-![Repo Size](https://img.shields.io/github/repo-size/thefaraazansari/react-practice)
-![Last Commit](https://img.shields.io/github/last-commit/thefaraazansari/react-practice)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+<img width="8" />
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
+<img width="8" />
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+<img width="8" />
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8)](https://tailwindcss.com/)
 
 ## 🚀 Live Demo
 
